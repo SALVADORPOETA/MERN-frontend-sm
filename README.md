@@ -51,6 +51,9 @@ MERN Practice is not just a simple list; it is a **performance-oriented frontend
 # Clone the repository
 git clone https://github.com/SALVADORPOETA/mern-frontend-sm.git
 
+# Move to the folder
+cd backend
+
 # Install dependencies
 npm install
 
