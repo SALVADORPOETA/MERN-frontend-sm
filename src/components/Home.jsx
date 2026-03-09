@@ -7,7 +7,7 @@ const Home = () => {
   const API_URL =
     window.location.hostname === 'localhost'
       ? 'http://localhost:5000/items'
-      : 'https://mern-practice-sm.vercel.app/items'
+      : 'https://mern-backend-sm.vercel.app/items'
   const [editingId, setEditingId] = useState(null) // Guardará el ID del item que estamos editando
   const buttonRef = useRef(null) // Creamos la percha para el botón
 
