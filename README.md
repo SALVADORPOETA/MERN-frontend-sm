@@ -49,10 +49,7 @@ MERN Practice is not just a simple list; it is a **performance-oriented frontend
 
 ```bash
 # Clone the repository
-git clone https://github.com/SALVADORPOETA/mern-practice-frontend.git
-
-# Navigate into the project directory
-cd mern-practice-frontend
+git clone https://github.com/SALVADORPOETA/mern-frontend-sm.git
 
 # Install dependencies
 npm install
