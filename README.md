@@ -81,8 +81,7 @@ mern-practice-frontend/
 │  ├─ components/
 │  │  ├─ Home.jsx        # Core Logic: CRUD operations & State sorting
 │  │  └─ About.jsx       # Static info page
-│  ├─ App.js             # Main Router & Global Layout
-│  └─ index.js           # Entry point
+│  └─ App.jsx             # Main Router & Global Layout
 ├─ public/
 └─ package.json
 
