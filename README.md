@@ -1,6 +1,6 @@
 # MERN Practice (Frontend)
 
-**MERN Practice** is a sophisticated, completely original React-based task management interface. Designed to demonstrate advanced frontend architectural patterns, this project focuses on **dynamic state management**, real-time UI synchronization, and a seamless user experience. Every component, hook, and interaction has been engineered from scratch to provide a robust environment for managing daily activities with a custom priority system.
+**MERN Practice (Frontend)** is a sophisticated, completely original React-based task management interface. Designed to demonstrate advanced frontend architectural patterns, this project focuses on **dynamic state management**, real-time UI synchronization, and a seamless user experience. Every component, hook, and interaction has been engineered from scratch to provide a robust environment for managing daily activities with a custom priority system.
 
 This application is **fully interactive**, users can instantly toggle between viewing, creating, and editing modes without page reloads. The frontend communicates with a RESTful API to ensure data persistence, featuring a reactive sorting algorithm that organizes tasks by their level of importance.
 
