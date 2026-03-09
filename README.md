@@ -4,7 +4,7 @@
 
 This application is **fully interactive** — users can instantly toggle between viewing, creating, and editing modes without page reloads. The frontend communicates with a RESTful API to ensure data persistence, featuring a reactive sorting algorithm that organizes tasks by their level of importance.
 
-<img width="781" height="635" alt="mern" src="https://github.com/user-attachments/assets/3c602886-53a3-486e-ac92-c231ab2b3bc2" />
+<img width="780" height="631" alt="mern" src="https://github.com/user-attachments/assets/a0100563-516f-404a-9150-70cb46e8892a" />
 
 ✨ **Overview**
 
