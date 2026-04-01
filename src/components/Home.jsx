@@ -148,7 +148,7 @@ const Home = () => {
       </div>
 
       {/* Listado de Items */}
-      <ul style={{ listStyle: 'none', padding: 0 }}>
+      <ul style={{ listStyle: 'none', padding: 0, minHeight: '300px' }}>
         {items.map((item) => (
           <li
             key={item._id}
@@ -183,7 +183,7 @@ const Home = () => {
                 </button>
                 <button
                   onClick={() => deleteItem(item._id)}
-                  style={{ cursor: 'pointer', color: '#ff4d4d' }}
+                  style={{ cursor: 'pointer', color: '#ff8080' }}
                 >
                   Eliminar
                 </button>

@@ -10,7 +10,7 @@ const App = () => {
         style={{
           padding: '10px 20px',
           backgroundColor: '#1a1d23',
-          color: 'white',
+          color: '#FFFFFF',
           display: 'flex',
           alignItems: 'center',
           gap: '20px',
