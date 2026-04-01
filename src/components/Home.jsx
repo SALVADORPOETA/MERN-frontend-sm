@@ -95,7 +95,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div style={{ padding: '20px' }}>
+    <main style={{ padding: '20px' }}>
       <h1>Práctica MERN: Lista de Tareas</h1>
 
       {/* Formulario simple */}
@@ -116,6 +116,7 @@ const Home = () => {
           style={{ padding: '6px' }}
         />
         <select
+          id="priority-select"
           value={newItemPriority}
           onChange={(e) => setNewItemPriority(e.target.value)}
           style={{ padding: '6px', cursor: 'pointer' }}
@@ -184,7 +185,7 @@ const Home = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </main>
   )
 }
 

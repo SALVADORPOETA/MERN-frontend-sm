@@ -9,7 +9,7 @@ const App = () => {
       <nav
         style={{
           padding: '10px 20px',
-          backgroundColor: '#282c34',
+          backgroundColor: '#1a1d23',
           color: 'white',
           display: 'flex',
           alignItems: 'center',
