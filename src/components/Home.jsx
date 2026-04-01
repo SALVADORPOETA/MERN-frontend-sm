@@ -115,6 +115,12 @@ const Home = () => {
           placeholder="Nueva tarea..."
           style={{ padding: '6px' }}
         />
+        <label
+          htmlFor="priority-select"
+          style={{ fontSize: '14px', fontWeight: 'bold' }}
+        >
+          Nivel de Prioridad:
+        </label>
         <select
           id="priority-select"
           value={newItemPriority}
@@ -148,7 +154,7 @@ const Home = () => {
             key={item._id}
             style={{
               marginBottom: '8px',
-              border: '1px solid #ccc',
+              border: '1px solid #444',
               padding: '8px',
               borderRadius: '6px',
             }}
@@ -166,7 +172,8 @@ const Home = () => {
                 style={{ display: 'flex', alignItems: 'center', gap: '15px' }}
               >
                 <span>
-                  Prioridad: <strong>{item.priority}</strong>
+                  Prioridad:{' '}
+                  <strong style={{ color: '#00d1b2' }}>{item.priority}</strong>
                 </span>
                 <button
                   onClick={() => prepareEdit(item)}
@@ -176,7 +183,7 @@ const Home = () => {
                 </button>
                 <button
                   onClick={() => deleteItem(item._id)}
-                  style={{ cursor: 'pointer', color: 'red' }}
+                  style={{ cursor: 'pointer', color: '#ff4d4d' }}
                 >
                   Eliminar
                 </button>
