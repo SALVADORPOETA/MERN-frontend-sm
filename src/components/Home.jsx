@@ -183,7 +183,16 @@ const Home = () => {
                 </button>
                 <button
                   onClick={() => deleteItem(item._id)}
-                  style={{ cursor: 'pointer', color: '#ff8080' }}
+                  style={{
+                    cursor: 'pointer',
+                    backgroundColor: '#ff8080', // Fondo rojo claro sólido
+                    color: '#000000', // Texto negro (máximo contraste sobre el fondo claro)
+                    border: 'none',
+                    padding: '6px 12px',
+                    borderRadius: '4px',
+                    fontWeight: 'bold',
+                    fontSize: '14px',
+                  }}
                 >
                   Eliminar
                 </button>
